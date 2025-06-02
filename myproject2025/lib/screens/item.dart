@@ -27,7 +27,7 @@ class _ItemState extends State<Item> {
 
   void select() async {
     final url = Uri.parse(
-        "http://172.20.6.74:8081/php_api_flutter/crud_data/data_farm_request_login.php");
+        "http://172.20.6.74:8081/php_api_flutter/crud_data/data_flutter_select.php");
 
     try {
       final response = await http.post(
